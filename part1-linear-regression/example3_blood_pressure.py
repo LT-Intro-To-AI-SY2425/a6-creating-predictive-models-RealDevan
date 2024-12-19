@@ -20,6 +20,8 @@ plt.xlabel("Age")
 plt.ylabel("Systolic Blood Pressure")
 plt.title("Systolic Blood Pressure by Age")
 plt.scatter(x, y)
+plt.plot(x, c="r", label="Line of Best Fit")
+
 
 print("Pearson's Correlation: r = :", x.corr(y))
 

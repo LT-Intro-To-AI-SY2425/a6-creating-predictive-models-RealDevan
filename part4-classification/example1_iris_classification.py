@@ -17,8 +17,8 @@ x = data[["SepalLengthCm", "SepalWidthCm", "PetalLengthCm", "PetalWidthCm"]].val
 y = data["Species"].values
 
 #Standardizes the x values
-scaler = StandardScaler().fit(x)
-x = scaler.transform(x)
+#scaler = StandardScaler().fit(x)
+#x = scaler.transform(x)
 
 #Splits the data into a training and testing set
 x_train, x_test, y_train, y_test = train_test_split(x, y)
